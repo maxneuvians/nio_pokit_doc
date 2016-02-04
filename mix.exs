@@ -3,7 +3,7 @@ defmodule NioPokitDoc.Mixfile do
 
   def project do
     [app: :nio_pokit_doc,
-     version: "0.5.0",
+     version: "0.5.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,

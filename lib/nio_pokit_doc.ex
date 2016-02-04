@@ -21,11 +21,19 @@ defmodule NioPokitDoc do
   defdelegate activities, to: NioPokitDoc.API.Activities, as: :get
   defdelegate activities(id), to: NioPokitDoc.API.Activities, as: :get
 
+  defdelegate cash_prices(query), to: NioPokitDoc.API.CashPrices, as: :get
+
   defdelegate eligibility(params), to: NioPokitDoc.API.Eligibility, as: :post
 
   defdelegate icd_convert(code), to: NioPokitDoc.API.Icd_convert, as: :get
 
+  defdelegate insurance_prices(query), to: NioPokitDoc.API.InsurancePrices, as: :get
+
+  defdelegate mpc(params), to: NioPokitDoc.API.MedicalProcedureCodes, as: :get
+
   defdelegate plans(query), to: NioPokitDoc.API.Plans, as: :get
+
+  defdelegate providers(params), to: NioPokitDoc.API.Providers, as: :get
 
   defdelegate trading_partners, to: NioPokitDoc.API.TradingPartners, as: :get
   defdelegate trading_partners(id), to: NioPokitDoc.API.TradingPartners, as: :get

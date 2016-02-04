@@ -50,7 +50,7 @@ Not all API calls are implemented - here is completion list:
 - [ ] Authorizations
 - [ ] Benefits Enrollment
 - [ ] Enrollment Snapshot
-- [ ] Cash Prices
+- [X] Cash Prices
 - [ ] Claims
 - [ ] Claims Convert
 - [ ] Claims Status
@@ -58,16 +58,16 @@ Not all API calls are implemented - here is completion list:
 - [ ] Files
 - [X] ICD Convert
 - [ ] Identity Management
-- [ ] Insurance Prices
-- [ ] Medical Procedure Code
+- [X] Insurance Prices
+- [X] Medical Procedure Code
 - [X] Plans
-- [ ] Providers
+- [X] Providers
 - [ ] Referrals
 - [ ] Scheduling
 - [X] Trading Partners
 
 ### Version
-0.5.0
+0.5.1
 
 License
 ----
