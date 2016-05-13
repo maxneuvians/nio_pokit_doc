@@ -20,8 +20,8 @@ defmodule NioPokitDoc.Mixfile do
 
   defp deps do
     [
-      {:oauth2, "~> 0.5"},
-      {:poison, "~> 1.3"}
+      {:oauth2, "~> 0.6"},
+      {:poison, "~> 2.0"}
     ]
   end
 end
